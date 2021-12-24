@@ -56,11 +56,11 @@ pinMode(INB2,OUTPUT);
 }
 
 void loop() {
-Forward_M1(100);
-Forward_M2(100);
+Forward_M1(255);
+Forward_M2(255);
 delay(3000);
-Backward_M1(100);
-Backward_M2(100);
+Backward_M1(255);
+Backward_M2(255);
 delay(3000);
 Stop_M1();
 Stop_M2();
